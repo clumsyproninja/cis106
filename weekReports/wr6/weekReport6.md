@@ -35,4 +35,22 @@ The brackets wildcard matches a single character in a range
 - Example 3:
   - list all files that don't contain a number: `ls *[!0-9]*`
 
-## Practice
+## Practices:
+
+### Practice 5
+![prac5](prac5.png)
+
+### Practice 5
+![prac6](prac6.png)
+
+### Practice 5
+![prac7](prac7.png)
+
+## Brace Expansion
+Brace expansion {} allows you to generate arbitrary strings to use with commands
+- Example 1:
+  - Create a whole directory structure in a single command: `mkdir -p music/{jazz,rock}/{mp3files,videos,oggfiles}`
+- Example 2:
+  - Create an N number of files to use: `touch site{1..5}.html`
+- Example 3:
+  - Remove multiple files in a directory: `rm -r {dir1,dir2,dir3,file.txt,image.png}`
