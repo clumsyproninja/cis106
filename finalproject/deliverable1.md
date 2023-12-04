@@ -15,15 +15,15 @@ A web server may either refer to hardware or software, or both of them working t
 
 ### What are some different web server applications?
 #### Apache HTTP server
-<img src="apache.png" alt="Apache logo" style="height:100px;width:100px;">
+<img src="apache.png" alt="Apache logo" style="height:15vh;width:15vw;"><br>
 Apache HTTP server (also known as Apache) is a free, open-source web server. Apache is a part of the LAMP stack, a software stack that powers around 40% of all websites on the Internet. It includes tons of functionalities through a large collection of modules, available on all platforms, and easy scripting through Lua.
 
 #### Nginx
-<img src="nginx.png" alt="Nginx logo" style="height:100px;width:100px;">
+<img src="nginx.png" alt="Nginx logo" style="height:15vh;width:15vw;"><br>
 Nginx is an open-source web server that can also act as a reverse proxy, email proxy, and a load balancer. Nginx is event-driven, highly scalable, and can process multiple requests at the same time.
 
 #### Lighthttpd
-<img src="lighttpd.png" alt="IIS logo" style="height:100px;width:100px;">
+<img src="lighttpd.png" alt="IIS logo" style="height:15vh;width:15vw;"><br>
 Lighthttpd is a capable, single-threaded web server that can easily handle a few hundred requests per second and still go easy on system resources. It was designed to overcome resource usage challenges in low-memory and low-CPU environments.
 
 ### What is virtualization?
@@ -47,3 +47,5 @@ SSH, also known as Secure Shell, is a network protocol that gives users a secure
 ## Important Concepts To Understand
 - __Virtual Hosts:__ Virtual hosting is a method for hosting multiple domain names on a single server. Which allows one server to share its resources, such as memory and processor cycles, without requiring all services provided to use the same host name.
 - __DocumentRoot:__ Document root is simply the directory on a web server where the website files for a domain name are stored.
+- __UFW:__ UFW, which stands for Uncomplicated Firewall, is a user-friendly frontend for managing iptables, a software-based firewall solution. It simplifies the process of configuring the firewall on a linux system.
+- __LAMP Stack:__ LAMP Stack is an acronym for Linux, Apache, MySQL, and PHP/Python/Perl, representing a common software stack used for hosting dynamic websites. 
