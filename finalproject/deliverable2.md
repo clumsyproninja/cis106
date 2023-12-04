@@ -51,4 +51,7 @@ apache2 -v
 - `apachectl` - When troubleshooting, this command is used to check Apache's configuration
 
 ## Which are Apache Log Files, and what are they used for? Provide examples and screenshots.
+The apache log files are located in /var/log/apache2/error.log and they are crucial for troubleshooting. They contain detailed information about errors with timestamps, error modules, error codes, and text descriptions. Below are error log examples: <br>
+`[Wed Jul 15 01:34:12.093005 2020] [proxy:error] [pid 13949:tid 140150453516032] (13)Permission denied: AH00957: HTTP: attempt to connect to 127.0.0.1:9090 (127.0.0.1) failed`
 
+`[Wed Jul 15 01:34:12.093078 2020] [proxy_http:error] [pid 13949:tid 140150453516032] [client 127.0.0.1:42480] AH01114: HTTP: failed to make connection to backend: 127.0.0.1`
