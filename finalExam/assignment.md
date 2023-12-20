@@ -150,10 +150,10 @@ Use ">>" to append output to a file
 The "*" matches any character, the "?" matches a single character
 
 ### For copying and moving multiple files at the same time
-
+Use cp for copying files and mv for moving
 
 ### How to use brace expansion
-
+Brace expansion generations sequences. For example, `mv file{1,2,3} destination`, enables moving multiple files named "file1, file2, file3" to be moved.
 
 ### For creating entire directory structures in a single command
-
+Use mkdir -p to create parent directories along with the target directory. For example, `mkdir -p parent/child/grandchild`
